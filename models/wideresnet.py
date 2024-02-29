@@ -129,8 +129,8 @@ class WideResNet_for_CIFAR100(nn.Module):
         return self.fc(out)
 
 
-def WideResNet28_10_for_10():
+def WideResNet28_10():
     return WideResNet_for_CIFAR10(depth=28, widen_factor=10)
 
-def WideResNet28_12_for_100():
+def WideResNet28_12():
     return WideResNet_for_CIFAR100(depth=28, widen_factor=12)
