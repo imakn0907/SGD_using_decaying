@@ -4,7 +4,7 @@
 The performance of stochastic gradient descent (SGD), which is the simplest first-order optimizer for training deep neural networks, depends on not only the learning rate but also the batch size. They both affect the number of iterations and the stochastic first-order oracle (SFO) complexity needed for training. In particular, the previous numerical results indicated that, for SGD using a constant learning rate, the number of iterations needed for training decreases when the batch size increases, and the SFO complexity needed for training is minimized at a critical batch size and that it increases once the batch size exceeds that size. Here, we study the relationship between batch size and the iteration and SFO complexities needed for nonconvex optimization in deep learning with SGD using constant or decaying learning rates and show that SGD using the critical batch size minimizes the SFO complexity. We also provide numerical comparisons of SGD with the existing first-order optimizers and show the usefulness of SGD using a critical batch size. Moreover, we show that measured critical batch sizes are close to the sizes estimated from our theoretical results.
 
 ## Cite
-'''
+```
 @article{doi:10.1080/02331934.2024.2367635,
 author = {Kento Imaizumi and Hideaki Iiduka},
 title = {Iteration and stochastic first-order oracle complexities of stochastic gradient descent using constant and decaying learning rates},
@@ -18,4 +18,4 @@ doi = {10.1080/02331934.2024.2367635},
 URL = {https://doi.org/10.1080/02331934.2024.2367635},
 eprint = {https://doi.org/10.1080/02331934.2024.2367635}
 }
-'''
+```
