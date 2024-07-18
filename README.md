@@ -1,1 +1,1 @@
-# SGD_using_decaying
+# Iteration and stochastic first-order oracle complexities of stochastic gradient descent using constant and decaying learning rates
