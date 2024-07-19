@@ -15,13 +15,13 @@ wandb.init(config = args,
 
 ## Usage
 Training on CIFAR-10 dataset.
-'''
+```
 python3 main_CIFAR10.py
-'''
+```
 Training on CIFAR-100 dataset.
-'''
+```
 python3 main_CIFAR-100.py
-'''
+```
 ## Cite
 If you use this code or our results in your research, please cite:
 ```
